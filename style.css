@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2? family= Josefin+Slab:ital,wght@1,300 & family= Noto+Serif+Display:wght@100 & family= Poppins:wght@ 500 & family= Roboto+Condensed:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Baloo+Bhaina+2 & family= Josefin+Slab:ital,wght@1,300 & family= Noto+Serif+Display:wght@ 100 & family= Poppins:wght@500 & family= Roboto+Condensed:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Baloo+Bhaina+2 & family= Josefin+Slab:ital,wght@1,300 & family= Noto+Serif+Display:wght@ 100 & família= Poppins:wght@400;500 &family= Roboto+Condensed:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Baloo+Bhaina+2:wght@500 & family= Concert+One & family= Josefin+Slab:ital,wght@1.300 & family= Noto+Serif+Display:wght@100 & family= Poppins:wght@400;500 & family= Roboto+Condensed:wght@300 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background-color: #C9F2F2;
+
+}
+
+.logocabecalho {
+    height: 70px;
+    margin-left: 114px;
+    margin-top: 10px;
+}
+.menu {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, .3);
+    color: #FFFFFF;
+    display: flex;
+    gap: 15px;
+}
+
+a:hover {
+    cursor: pointer;
+    color:#F266CDC2;
+    text-shadow: none;
+}
+
+.redessociais {
+    margin-right: 114px;
+    cursor: pointer;
+}
+
+
+.instagram {
+    width: 23px;
+    height: 21px;
+}
+
+.facebook {
+    width: 21px;
+    height: 19px;
+}
+
+.whatsapp {
+    width: 23px;
+    height: 21px;
+}
+
+.conteudo1 {
+    max-width: 3000px;
+    min-width: 300px;
+    height: 698px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(fundo1.svg);
+}
+
+.imagembrigafundo {
+    height: 500px;
+    margin-right: 90px;
+    padding: none;
+    margin-top: 102px;
+    box-shadow: rgba(0, 0, 0, .4);
+}
+
+.comcarinho {
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: 400;
+    padding: none;
+    margin-left: 140px;
+    margin-right: 15px;
+    margin-top: 190px;
+    }
+
+.paravoce {
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: 500;
+    color:#F266CD;
+    padding: none;
+    margin-left: 265px;
+    margin-right: 15px;
+    
+}
+
+.botao {
+    width: 285px;
+    height: 65px;
+    background-color: #F266CD;
+    border-radius: 20px;
+    border-style: none;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .3);
+    color: white;
+    font-size: 20px;
+    font-family: poppins;
+    margin-left: 265px;
+    margin-right: 15px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.depoimentos {
+    width: 100%;
+    max-width: 3000px;
+    min-width: 300px;
+    height: 255px;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    height: 59px;
+    
+}
+
+.textodepoimento {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+}
+
+.autordepoimento {
+    font-family: popping;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nossosprodutos {
+    width: 100%;
+    height: 768px;
+    display: flex;
+    margin-right: 95px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF8FD;
+
+}
+
+.titulopagina {
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #FFF8FD;
+}
+
+.circulo {
+    width: 191px;
+    height: 183px;
+    align-self: flex-start;
+    margin-left: 26px;
+    margin-top: -60px;
+    position: absolute;
+}
+
+.docestradicionais {
+    width: 282px;
+    height: 411px;
+    border-radius: 20px;
+    background-color: #C9F2F2;
+    padding: 15px;
+    margin: 0px 15px 15px 15px;
+    display: flex;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .3);
+}
+
+.brigadeiro-produto {
+    width: 181px ;
+    height: 184px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: -95px;
+
+}
+
+.personalizados {
+    width: 282px;
+    height: 411px;
+    border-radius: 20px;
+    background-color: #F266CDB5;
+    padding: 15px;
+    margin: 0px 15px 15px 15px;
+    display: flex;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .3);
+}
+.personalizado-produto {
+    width: 202px;
+    height: 257px;
+    justify-items: center;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -160px;
+
+}
+
+
+.presentesKits {
+    width: 282px;
+    height: 411px;
+    border-radius: 20px;
+    background-color: #FFFA70D1;
+    padding: 15px;
+    margin: 0px 15px 15px 15px;
+    display: flex;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .3);
+}
+
+.presente-produto {
+    width: 268px ;
+    height: 257px;
+    justify-items: center;
+    position: absolute;
+    margin-left: -7px;
+    margin-top: -145px;
+
+}
+
+
+.expositores {
+    width: 282px;
+    height: 411px;
+    border-radius: 20px;
+    background-color: #2BFADB8A;
+    padding: 15px;
+    margin: 0px 15px 15px 15px;
+    display: flex;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .3);
+}
+
+.expositor-produto {
+    width: 206px ;
+    height: 281px;
+    justify-items: center;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -160px;
+
+}
+
+.titulocard1 {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 25px;
+    
+}
+
+.titulocard2 {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 75px;
+    
+}
+
+.titulocard3 {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 68px;
+    
+}
+
+.titulocard4 {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 87px;
+    
+}
+
+.textocard {
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 49px;
+}
+
+.seta {
+    width: 40px;
+    right: 40px;
+    margin-top: 300px;
+    margin-left: 105px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.valores {
+    width: 100%;
+    height: 569px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+}
+
+.valorp {
+    font-size: 24px;
+    font-family: poppins;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.visao {
+    width: 43%;
+    background-color: #C9F2F2;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.visaotitulo {
+    font-size: 36px;
+    font-family: poppins;
+    color: #F690DB;
+}
+
+.missao {
+    width: 43%;
+    background-color: #F690DB;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.missaotitulo {
+    font-size: 36px;
+    font-family: poppins;
+    color: #45E8D1;
+}
+
+.valor {
+    width: 43%;
+    background-color: #C9F2F2;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.valortitulo {
+    font-size: 36p5;
+    font-family: poppins;
+    color: #F690DB;
+    margin-top: 50px;
+}
+
+.contato {
+    height: 768px;
+    background-color: #FFF8FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contatop {
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-right: 90px;
+}
+
+.enderecop {
+    font-size: 24px;
+    font-family: poppins;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+    margin-right: 115px;
+}
+
+.formulario {
+    width: 594px;
+    height: 568px;
+    background-color:#C9F2F2;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .3);
+    border-radius: 25px;
+    margin-left: 20px;
+    
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+input {
+    width: 474px;
+    height: 55px;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 20px;
+    background-color: #E5E4E4;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, .3);
+    border: none;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+.inputmensagem {
+    height: 210px;
+    align-items: flex-start;
+}
+
+.mensagem {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.iniciocardapio {
+    height: 280px;
+    background-color: #B5DDC7;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.titulopaginacardapio {
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 300px;
+    position: absolute;
+}
+.textocardapio {
+    font-family: popping;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 170px;
+    padding: 100px;
+}
+
+.imgcardapio {
+    height: 266px;
+    width: 264px;
+    justify-items: end;
+    margin-left: 600px;
+    margin-top: -125px;
+    position: absolute;
+
+}
+
+.setabaixo {
+    height: 33px;
+    width: 33px;
+    margin-top: 200px;
+    margin-left: -230px;
+}
+
+.cardapio2 {
+    height: 280px;
+    background-color: #FFF8FD;
+    display: flex;
+}
+
+.fototradicional {
+    height: 280px;
+    width: 900px;
+    justify-content: start;
+    align-content: flex-start;
+    margin-left: -40px;
+    margin-bottom: 0%;
+    
+}
+
+.conteudocardapio2 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 15px;
+    margin-left: 1000px;
+    position: absolute;
+}
+.textocardapio {
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: end;
+    padding-top: 10px;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.valorcardapio {
+    font-family: popping;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: -90px;
+}
+
+.cardapio3 {
+    height: 280px;
+    background-color: #FFF8FD;
+    display: flex;
+    width: 1440px;
+    margin-top: 15px;
+}
+
+.fototradicionaldecorado {
+    height: 280px;
+    width: 900px;
+    margin-left: 403px;
+    margin-right: 0px;
+    background-color: #FFF8FD;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.fotogourmet {
+    height: 280px;
+    width: 900px;
+    justify-content: start;
+    align-content: flex-start;
+    margin-left: -40px;
+    margin-bottom: 0%;
+    
+}
+.conteudocardapio3 {
+    justify-content: start;
+    align-items: flex-end;
+    margin-top: 0px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+.valorcardapio2 {
+    font-family: popping;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -110px;
+    margin-left: -30px;
+}
+
+.parceirostitulo {
+    font-family: poppins;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #C9F2F2;
+}
+
+.parceiros {
+    height: 768px;
+    background-color: #C9F2F2;
+
+}
+
+.conteudoparceiros {
+    display: flex;
+}
+
+.textoparceiros {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 230px;
+    margin-left: 90px;
+    
+}
+
+.rodape {
+    height: 416px;
+    background-color: #FFF8FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.endereco {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.logorodape {
+    height: 228px;
+    align-self: center;
+    margin-left: 200px;
+}
+
+.funcionamento {
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 900px;
+}
+
+.horario {
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 300px;
+    text-align: center;
+}
